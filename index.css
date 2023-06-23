@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: rgb(26, 126, 126);
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 25px;
+    height: 500px;
+    background-color: rgb(10, 42, 42);
+    position: relative;
+    margin-top: 50px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 44px;
+}
+
+.btn {
+    position: absolute;
+    top: 380px;
+    left: 500;
+    border-radius: none;
+    border-style: none;
+}
+
+
+h2 {
+    font-size: 70px;
+    background-color: rgb(26, 126, 126);
+    border-radius: 12px;
+    color: aliceblue;
+    font-family: 'Cursed Timer ULiL';
+    padding-top: 12px;
+}
+
+button {
+   background-color: rgb(10, 42, 42);
+   color: aliceblue;
+   font-weight: bold;
+   font-size: 25px;
+   border-radius: 6px;
+   border-style: none;
+   border-color: aliceblue;
+   font-family: 'Cursed Timer ULiL';
+   cursor: pointer;
+   margin: 10px;
+}
